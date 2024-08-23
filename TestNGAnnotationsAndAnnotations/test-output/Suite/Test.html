@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 20 10:56:58 IST 2024</td>
+<td>Started on:</td><td>Fri Aug 23 10:48:46 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (88 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (87 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,56 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='io.annotations.TestAnnotations.Auto1()'><b>Auto1</b><br>Test class: io.annotations.TestAnnotations</td>
-<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
-	at io.annotations.TestAnnotations.Auto1(TestAnnotations.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace412925308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace412925308'><pre>java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at org.testng.Assert.assertFalse(Assert.java:89)
-	at io.annotations.TestAnnotations.Auto1(TestAnnotations.java:44)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -126,35 +76,70 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='io.annotations.TestAnno2.test()'><b>test</b><br>Test class: io.annotations.TestAnno2</td>
+<td title='io.dependsOn.parameters.aparameterTest3()'><b>aparameterTest3</b><br>Test class: io.dependsOn.parameters</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnno2@710c2b53</td></tr>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
 <tr>
-<td title='io.annotations.TestAnnotations.Test1()'><b>Test1</b><br>Test class: io.annotations.TestAnnotations</td>
+<td title='io.dependsOn.DepdensOn.BlastMethod()'><b>BlastMethod</b><br>Test class: io.dependsOn.DepdensOn</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
 <tr>
-<td title='io.annotations.TestAnnotations.Test2()'><b>Test2</b><br>Test class: io.annotations.TestAnnotations</td>
+<td title='io.dependsOn.parameters.parameterTest1()'><b>parameterTest1</b><br>Test class: io.dependsOn.parameters<br>Parameters: selenuium.com</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
 <tr>
-<td title='io.annotations.TestAnnotations.Test3()'><b>Test3</b><br>Test class: io.annotations.TestAnnotations</td>
+<td title='io.dependsOn.parameters.Datarpovider()'><b>Datarpovider</b><br>Test class: io.dependsOn.parameters<br>Parameters: third name, third password</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
 <tr>
-<td title='io.annotations.TestAnnotations.WAuto()'><b>WAuto</b><br>Test class: io.annotations.TestAnnotations</td>
+<td title='io.dependsOn.DepdensOn.para()'><b>para</b><br>Test class: io.dependsOn.DepdensOn<br>Parameters: selenuium.com, pratice</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
 <tr>
-<td title='io.annotations.TestAnnotations.Test4()'><b>Test4</b><br>Test class: io.annotations.TestAnnotations</td>
+<td title='io.dependsOn.parameters.Datarpovider()'><b>Datarpovider</b><br>Test class: io.dependsOn.parameters<br>Parameters: second name, second password</td>
 <td></td>
 <td>0</td>
-<td>io.annotations.TestAnnotations@7e057f43</td></tr>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
+<tr>
+<td title='io.dependsOn.DepdensOn.B1lastMethod()'><b>B1lastMethod</b><br>Test class: io.dependsOn.DepdensOn</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
+<tr>
+<td title='io.dependsOn.parameters.parameterTest2()'><b>parameterTest2</b><br>Test class: io.dependsOn.parameters</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
+<tr>
+<td title='io.dependsOn.parameters.zparameterTest2()'><b>zparameterTest2</b><br>Test class: io.dependsOn.parameters</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
+<tr>
+<td title='io.dependsOn.DepdensOn.ZlastMethod()'><b>ZlastMethod</b><br>Test class: io.dependsOn.DepdensOn</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
+<tr>
+<td title='io.dependsOn.parameters.Datarpovider()'><b>Datarpovider</b><br>Test class: io.dependsOn.parameters<br>Parameters: first name, first password</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.parameters@19e4653c</td></tr>
+<tr>
+<td title='io.dependsOn.DepdensOn.PlastMethod()'><b>PlastMethod</b><br>Test class: io.dependsOn.DepdensOn</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
+<tr>
+<td title='io.dependsOn.DepdensOn.ClastMethod()'><b>ClastMethod</b><br>Test class: io.dependsOn.DepdensOn</td>
+<td></td>
+<td>0</td>
+<td>io.dependsOn.DepdensOn@28261e8e</td></tr>
 </table><p>
 </body>
 </html>

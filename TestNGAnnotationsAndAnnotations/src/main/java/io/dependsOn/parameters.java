@@ -13,11 +13,23 @@ public class parameters {
 		System.out.println(urlValue);
 	}
 	
+	@Test(priority=0)
+	public static void zparameterTest2()
+	{
+		System.out.println("priority is important");
+	}
 	
-	@Test
+	@Test(priority=1)
 	public static void parameterTest2()
 	{
 		System.out.println("This is parameter 2");
+	}
+	
+
+	@Test(priority=3)
+	public static void aparameterTest3()
+	{
+		System.out.println("This is parameter 3");
 	}
 	
 	@Test(dataProvider="getData")
