@@ -39,7 +39,7 @@ public class parameters {
 		
 	}
 	
-	@DataProvider
+	@DataProvider()
 	public Object[][] getData() {
 		Object[][] data =new Object[3][2];
 		data[0][0] ="first name";
