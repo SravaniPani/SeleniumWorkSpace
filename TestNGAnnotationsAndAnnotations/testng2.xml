@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="6">
+  <test thread-count="5" name="Test1">
+    <classes>
+            <class name="io.annotations.TestAnnotations"/>
+                 <class name="io.annotations.TestAnno2"/>
+                       <class name="io.pacakges.Packages"/>
+                 
+            
+      
+    </classes>
+  </test> 
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

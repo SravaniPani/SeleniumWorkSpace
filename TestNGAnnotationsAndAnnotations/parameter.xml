@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<parameter name="url" value="selenuium.com"/>
+<parameter name="extension" value="pratice"/>
+
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="io.dependsOn.parameters"/>
+            <class name="io.dependsOn.DepdensOn"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-20T18:04:52 IST" name="Default suite" finished-at="2024-08-20T18:04:52 IST" duration-ms="84">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T18:04:52 IST" name="Default test" finished-at="2024-08-20T18:04:52 IST" duration-ms="84">
+      <class name="io.testNgOOPS.Class3">
+        <test-method signature="meth2()[pri:0, instance:io.testNgOOPS.Class3@27406a17]" started-at="2024-08-20T18:04:52 IST" name="meth2" finished-at="2024-08-20T18:04:52 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method signature="printingParent()[pri:0, instance:io.testNgOOPS.Class3@27406a17]" started-at="2024-08-20T18:04:52 IST" name="printingParent" finished-at="2024-08-20T18:04:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printingParent -->
+      </class> <!-- io.testNgOOPS.Class3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
