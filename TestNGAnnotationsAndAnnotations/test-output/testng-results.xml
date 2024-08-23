@@ -1,21 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-20T18:04:52 IST" name="Default suite" finished-at="2024-08-20T18:04:52 IST" duration-ms="84">
+  <suite started-at="2024-08-23T10:48:46 IST" name="Suite" finished-at="2024-08-23T10:48:46 IST" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2024-08-20T18:04:52 IST" name="Default test" finished-at="2024-08-20T18:04:52 IST" duration-ms="84">
-      <class name="io.testNgOOPS.Class3">
-        <test-method signature="meth2()[pri:0, instance:io.testNgOOPS.Class3@27406a17]" started-at="2024-08-20T18:04:52 IST" name="meth2" finished-at="2024-08-20T18:04:52 IST" duration-ms="17" status="PASS">
+    <test started-at="2024-08-23T10:48:46 IST" name="Test" finished-at="2024-08-23T10:48:46 IST" duration-ms="87">
+      <class name="io.dependsOn.parameters">
+        <test-method signature="Datarpovider(java.lang.String,java.lang.String)[pri:0, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="Datarpovider" data-provider="getData" finished-at="2024-08-23T10:48:46 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- meth2 -->
-        <test-method signature="printingParent()[pri:0, instance:io.testNgOOPS.Class3@27406a17]" started-at="2024-08-20T18:04:52 IST" name="printingParent" finished-at="2024-08-20T18:04:52 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- Datarpovider -->
+        <test-method signature="Datarpovider(java.lang.String,java.lang.String)[pri:0, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="Datarpovider" data-provider="getData" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printingParent -->
-      </class> <!-- io.testNgOOPS.Class3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Datarpovider -->
+        <test-method signature="Datarpovider(java.lang.String,java.lang.String)[pri:0, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="Datarpovider" data-provider="getData" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[third password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datarpovider -->
+        <test-method signature="parameterTest1(java.lang.String)[pri:0, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="parameterTest1" finished-at="2024-08-23T10:48:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenuium.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest1 -->
+        <test-method signature="zparameterTest2()[pri:0, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="zparameterTest2" finished-at="2024-08-23T10:48:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zparameterTest2 -->
+        <test-method signature="parameterTest2()[pri:1, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="parameterTest2" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest2 -->
+        <test-method signature="aparameterTest3()[pri:3, instance:io.dependsOn.parameters@19e4653c]" started-at="2024-08-23T10:48:46 IST" name="aparameterTest3" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aparameterTest3 -->
+      </class> <!-- io.dependsOn.parameters -->
+      <class name="io.dependsOn.DepdensOn">
+        <test-method signature="B1lastMethod()[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="B1lastMethod" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B1lastMethod -->
+        <test-method signature="BlastMethod()[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="BlastMethod" finished-at="2024-08-23T10:48:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastMethod -->
+        <test-method signature="ClastMethod()[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="ClastMethod" finished-at="2024-08-23T10:48:46 IST" depends-on-methods="io.dependsOn.DepdensOn.B1lastMethod, io.dependsOn.DepdensOn.BlastMethod" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClastMethod -->
+        <test-method signature="ZlastMethod()[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="ZlastMethod" finished-at="2024-08-23T10:48:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZlastMethod -->
+        <test-method signature="PlastMethod()[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="PlastMethod" finished-at="2024-08-23T10:48:46 IST" depends-on-methods="io.dependsOn.DepdensOn.ZlastMethod" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlastMethod -->
+        <test-method signature="para(java.lang.String,java.lang.String)[pri:0, instance:io.dependsOn.DepdensOn@28261e8e]" started-at="2024-08-23T10:48:46 IST" name="para" finished-at="2024-08-23T10:48:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenuium.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pratice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para -->
+      </class> <!-- io.dependsOn.DepdensOn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
