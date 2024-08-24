@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.testNgOOPS.Class3">
+      <class name="io.dependsOn.parameters">
         <methods>
-          <include name="meth2"/>
+          <include name="parameterTest1"/>
         </methods>
-      </class> <!-- io.testNgOOPS.Class3 -->
+      </class> <!-- io.dependsOn.parameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
