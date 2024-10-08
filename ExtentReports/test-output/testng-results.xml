@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-25T11:10:58 IST" name="Default suite" finished-at="2024-08-25T11:11:00 IST" duration-ms="2893">
+    <groups>
+    </groups>
+    <test started-at="2024-08-25T11:10:58 IST" name="Default test" finished-at="2024-08-25T11:11:00 IST" duration-ms="2893">
+      <class name="io.extent.ExtentReport">
+        <test-method is-config="true" signature="config()[pri:0, instance:io.extent.ExtentReport@2a693f59]" started-at="2024-08-25T11:10:58 IST" name="config" finished-at="2024-08-25T11:10:58 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="FirstTestReport()[pri:0, instance:io.extent.ExtentReport@2a693f59]" started-at="2024-08-25T11:10:58 IST" name="FirstTestReport" finished-at="2024-08-25T11:11:00 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTestReport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:io.extent.ExtentReport@2a693f59]" started-at="2024-08-25T11:11:00 IST" name="teardown" finished-at="2024-08-25T11:11:00 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- io.extent.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

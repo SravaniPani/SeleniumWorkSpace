@@ -29,20 +29,24 @@ public class StandAloneTest {
 		driver.findElement(By.id("userPassword")).sendKeys("Sravani@123");
 		driver.findElement(By.id("login")).click();
 		
-		
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 		List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
+		
+		
 		WebElement desiredProduct =	products.stream().filter(product->
 	    product.findElement(By.cssSelector("b")).getText().equals("ADIDAS ORIGINAL")).findFirst().orElse(null);
 		desiredProduct.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-		
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
-		
-		
-		//wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); --- It's taking time so to voercome we are writing next step.
+	//wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); --- It's taking time so to voercome we are writing next step.
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
+		
+		
     	driver.findElement(By.cssSelector("button[routerlink*='cart']")).click();
+    	
+    	
+    	
     	List <WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));		
     	Boolean match = cartProducts.stream().anyMatch(cartProduct-> cartProduct.getText().equalsIgnoreCase("ADIDAS ORIGINAL"));
     	Assert.assertTrue(match);

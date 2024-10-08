@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\srapani\eclipse-workspace\TestNGAnnotationsAndAnnotations\parameter.xml</span>
+                    <span>C:\Users\srapani\eclipse-workspace\TestNGAnnotationsAndAnnotations\listners.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="Auto1">Auto1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,67 +117,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="B1lastMethod">B1lastMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="BlastMethod">BlastMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="Test2">Test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="ClastMethod">ClastMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="Test3">Test3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="Datarpovider(third name, third password)">Datarpovider(third name, third password)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="Test4">Test4</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="Datarpovider(second name, second password)">Datarpovider(second name, second password)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnnotations" class="method navigator-link" hash-for-method="WAuto">WAuto</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="Datarpovider(first name, first password)">Datarpovider(first name, first password)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="PlastMethod">PlastMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="ZlastMethod">ZlastMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="aparameterTest3">aparameterTest3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.DepdensOn" class="method navigator-link" hash-for-method="para(selenuium.com, pratice)">para(selenuium.com, pratice)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="parameterTest1(selenuium.com)">parameterTest1(selenuium.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="parameterTest2">parameterTest2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="io.dependsOn.parameters" class="method navigator-link" hash-for-method="zparameterTest2">zparameterTest2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="io.annotations.TestAnno2" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -178,63 +157,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">io.dependsOn.parameters</span>
+              <img src="failed.png"/>
+              <span class="class-name">io.annotations.TestAnnotations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Datarpovider(third name, third password)">
-                  </a> <!-- Datarpovider(third name, third password) -->
-                  <span class="method-name">Datarpovider</span>
-                  <span class="parameters">(third name,third password)</span>
+                  <a name="Auto1">
+                  </a> <!-- Auto1 -->
+                  <span class="method-name">Auto1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at io.annotations.TestAnnotations.Auto1(TestAnnotations.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">io.annotations.TestAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Datarpovider(second name, second password)">
-                  </a> <!-- Datarpovider(second name, second password) -->
-                  <span class="method-name">Datarpovider</span>
-                  <span class="parameters">(second name,second password)</span>
+                  <a name="Test2">
+                  </a> <!-- Test2 -->
+                  <span class="method-name">Test2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Datarpovider(first name, first password)">
-                  </a> <!-- Datarpovider(first name, first password) -->
-                  <span class="method-name">Datarpovider</span>
-                  <span class="parameters">(first name,first password)</span>
+                  <a name="Test3">
+                  </a> <!-- Test3 -->
+                  <span class="method-name">Test3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="aparameterTest3">
-                  </a> <!-- aparameterTest3 -->
-                  <span class="method-name">aparameterTest3</span>
+                  <a name="Test4">
+                  </a> <!-- Test4 -->
+                  <span class="method-name">Test4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="parameterTest1(selenuium.com)">
-                  </a> <!-- parameterTest1(selenuium.com) -->
-                  <span class="method-name">parameterTest1</span>
-                  <span class="parameters">(selenuium.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="parameterTest2">
-                  </a> <!-- parameterTest2 -->
-                  <span class="method-name">parameterTest2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="zparameterTest2">
-                  </a> <!-- zparameterTest2 -->
-                  <span class="method-name">zparameterTest2</span>
+                  <a name="WAuto">
+                  </a> <!-- WAuto -->
+                  <span class="method-name">WAuto</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,50 +223,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">io.dependsOn.DepdensOn</span>
+              <span class="class-name">io.annotations.TestAnno2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="B1lastMethod">
-                  </a> <!-- B1lastMethod -->
-                  <span class="method-name">B1lastMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="BlastMethod">
-                  </a> <!-- BlastMethod -->
-                  <span class="method-name">BlastMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ClastMethod">
-                  </a> <!-- ClastMethod -->
-                  <span class="method-name">ClastMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PlastMethod">
-                  </a> <!-- PlastMethod -->
-                  <span class="method-name">PlastMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ZlastMethod">
-                  </a> <!-- ZlastMethod -->
-                  <span class="method-name">ZlastMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="para(selenuium.com, pratice)">
-                  </a> <!-- para(selenuium.com, pratice) -->
-                  <span class="method-name">para</span>
-                  <span class="parameters">(selenuium.com,pratice)</span>
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,19 +238,20 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\srapani\eclipse-workspace\TestNGAnnotationsAndAnnotations\parameter.xml</span>
+            <span class="header-content">C:\Users\srapani\eclipse-workspace\TestNGAnnotationsAndAnnotations\listners.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
-  &lt;parameter name=&quot;extension&quot; value=&quot;pratice&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;selenuium.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.annotations.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;io.dependsOn.parameters&quot;/&gt;
-      &lt;class name=&quot;io.dependsOn.DepdensOn&quot;/&gt;
+      &lt;class name=&quot;io.annotations.TestAnno2&quot;/&gt;
+      &lt;class name=&quot;io.annotations.TestAnnotations&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -329,6 +275,18 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">together</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Auto1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -345,64 +303,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Datarpovider')
-data.setCell(0, 2, 'io.dependsOn.parameters')
-data.setCell(0, 3, 7);
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'io.annotations.TestAnno2')
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ZlastMethod')
-data.setCell(1, 2, 'io.dependsOn.DepdensOn')
-data.setCell(1, 3, 5);
+data.setCell(1, 1, 'Auto1')
+data.setCell(1, 2, 'io.annotations.TestAnnotations')
+data.setCell(1, 3, 12);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'zparameterTest2')
-data.setCell(2, 2, 'io.dependsOn.parameters')
+data.setCell(2, 1, 'Test3')
+data.setCell(2, 2, 'io.annotations.TestAnnotations')
 data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'parameterTest1')
-data.setCell(3, 2, 'io.dependsOn.parameters')
+data.setCell(3, 1, 'Test2')
+data.setCell(3, 2, 'io.annotations.TestAnnotations')
 data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'PlastMethod')
-data.setCell(4, 2, 'io.dependsOn.DepdensOn')
+data.setCell(4, 1, 'Test4')
+data.setCell(4, 2, 'io.annotations.TestAnnotations')
 data.setCell(4, 3, 2);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'aparameterTest3')
-data.setCell(5, 2, 'io.dependsOn.parameters')
+data.setCell(5, 1, 'Test1')
+data.setCell(5, 2, 'io.annotations.TestAnnotations')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Datarpovider')
-data.setCell(6, 2, 'io.dependsOn.parameters')
+data.setCell(6, 1, 'WAuto')
+data.setCell(6, 2, 'io.annotations.TestAnnotations')
 data.setCell(6, 3, 1);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'para')
-data.setCell(7, 2, 'io.dependsOn.DepdensOn')
-data.setCell(7, 3, 1);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Datarpovider')
-data.setCell(8, 2, 'io.dependsOn.parameters')
-data.setCell(8, 3, 1);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'B1lastMethod')
-data.setCell(9, 2, 'io.dependsOn.DepdensOn')
-data.setCell(9, 3, 1);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'parameterTest2')
-data.setCell(10, 2, 'io.dependsOn.parameters')
-data.setCell(10, 3, 1);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'ClastMethod')
-data.setCell(11, 2, 'io.dependsOn.DepdensOn')
-data.setCell(11, 3, 1);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'BlastMethod')
-data.setCell(12, 2, 'io.dependsOn.DepdensOn')
-data.setCell(12, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 ms</span>
+              <span class="suite-total-time">Total running time: 34 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -417,16 +351,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">io.dependsOn.DepdensOn</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Failure</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -435,62 +362,83 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">io.dependsOn.parameters</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Datarpovider(first name, first password)</span>
+              <div class="chronological-class-name">io.annotations.TestAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">WSupreme</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">io.annotations.TestAnno2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Before</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">Datarpovider(second name, second password)</span>
-                <span class="method-start">9 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Datarpovider(third name, third password)</span>
-                <span class="method-start">11 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">parameterTest1(selenuium.com)</span>
-                <span class="method-start">17 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">zparameterTest2</span>
-                <span class="method-start">21 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">parameterTest2</span>
-                <span class="method-start">25 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">aparameterTest3</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">test</span>
+                <span class="method-start">86 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">io.dependsOn.DepdensOn</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">io.annotations.TestAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">B1lastMethod</span>
-                <span class="method-start">30 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Auto1</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">133 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">BlastMethod</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-name">Test2</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test3</span>
+                <span class="method-start">143 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">ClastMethod</span>
-                <span class="method-start">35 ms</span>
+                <span class="method-name">Test4</span>
+                <span class="method-start">148 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ZlastMethod</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-name">WAuto</span>
+                <span class="method-start">152 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">PlastMethod</span>
-                <span class="method-start">44 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">para(selenuium.com, pratice)</span>
-                <span class="method-start">47 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">After</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">Extreme</span>
+                <span class="method-start">319 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
